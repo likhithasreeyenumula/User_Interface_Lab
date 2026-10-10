@@ -8,7 +8,7 @@ void main() {
       '/': (context) => Scaffold(
             appBar: AppBar(title: Text('🏠 Home')),
             body: Center(
-              child: ElevatedButton(
+              child: ElevatedButton( 
                 onPressed: () => Navigator.pushNamed(context, '/second',
                     arguments: 'Hello from HomeScreen!'),
                 child: Text('Go to Second Screen'),
